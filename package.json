@@ -1,8 +1,21 @@
 {
+  "name": "kalp-global",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "start": "node node.js",
+    "dev": "nodemon node.js"
+  },
   "dependencies": {
-    "csv-parser": "^3.2.0",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "pg": "^8.13.3"
-  }
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "dotenv": "^8.2.0",
+    "csv-parser": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
 }
